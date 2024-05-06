@@ -1,0 +1,118 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wapper{
+    color:#F5F5F5;
+    min-height: 100%;
+}
+.header{
+    margin: 40px 50px 56px 10px;
+    color: #000;
+    display: flex;
+    
+    padding: 20px;
+
+}
+.right{
+    margin-left: 57%;
+    align-items: center;
+}
+.account-name{
+  margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.account-info{
+    height: 60px;
+    width: 220px;
+    background-color: #FFFFFF;
+    display: flex;
+    margin-left: 11rem;
+    border-radius: 5px;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    background-color: #ddd; /* Màu của avatar */
+    border-radius: 50%;
+    margin:10px 0px 0px 20px;
+}
+
+.admin{
+    font-size: 9px;
+}
+/* container */
+
+.container_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+  }
+  .search-bar-left-input{
+    width: 360px;
+    color: #000;
+    margin-left: 100px;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+
+ }
+ /*List*/
+.List{
+   
+    margin: 40px 30px 20% 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+  
+.listUsers h2 {
+    font-size: 20px;
+    color: #222B45;
+    font-weight: bold;
+    margin-left: 15px;
+  }
+  
+  .listUsers table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .listUsers th,
+  .listUsers td {
+    border: 1px ;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .listUsers th {
+    background-color: #B7D8FF;
+  }
+  
+  .listUsers tr:hover {
+    background-color: #8F9BB3;
+  }
+  
+  /* Remove vertical borders between table cells */
+  .listUsers td {
+    border-right: none;
+    color: #222B45;
+  }
+  
+  .listUsers th:last-child,
+  .listUsers td:last-child {
+    border-right: 1px solid #ddd; /* Keep the right border for the last column */
+  }
+  .edit,
+  .delete{
+    color: #4A85F6;
+    margin-left:8px ;
+  }
+  
+  

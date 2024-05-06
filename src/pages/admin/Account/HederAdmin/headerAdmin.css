@@ -1,0 +1,37 @@
+.header{
+    margin: 40px 50px 56px 10px;
+    color: #000;
+    display: flex;
+    
+    padding: 20px;
+
+}
+.right{
+    margin-left: 57%;
+    align-items: center;
+}
+.account-name{
+  margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.BloodGroup-info{
+    height: 60px;
+    width: 220px;
+    background-color: #FFFFFF;
+    display: flex;
+    margin-left: 11rem;
+    border-radius: 5px;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    background-color: #ddd; /* Màu của avatar */
+    border-radius: 50%;
+    margin:10px 0px 0px 20px;
+}
+
+.admin{
+    font-size: 9px;
+}
